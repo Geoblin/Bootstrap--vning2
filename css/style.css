@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: black;
+    display: flex;
+}
+.nav-link{
+    background-color: black;
+    color: white;
+    float: none;
+    top: 40px;
+    right: 40px;
+    display: flex;
+    padding-left: 1rem;
+    justify-content: end;
+    padding-top: 1rem;
+}
+.nav-utility{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-right: 4rem;
+    flex: 1;
+}
+.button-pink{
+    border: none;
+    background-color: #ED0488;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button-pink:hover{
+    background-color: orchid;
+}
+.nav img{
+    padding: 2rem;
+    height: 20%;
+    width: 10%;
+    justify-content: flex-start;
+}
